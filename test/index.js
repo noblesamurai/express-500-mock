@@ -3,7 +3,7 @@ var expect = require('expect.js'),
     supertest = require('supertest')(express500Mock);
 
 describe('express-500-mock', function() {
-  it('should say hello', function(done) {
-    supertest.get('/').expect(500, done);
+  it('should respond with a 500', function(done) {
+    supertest.get('/anyrandompath').expect(500, done);
   });
 });
