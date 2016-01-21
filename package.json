@@ -6,6 +6,9 @@
   "scripts": {
     "test": "node_modules/.bin/mocha"
   },
+  "engines": {
+    "node": "4.x"
+  }
   "repository": {
     "type": "git",
     "url": "https://github.com/timothyleslieallen/express-500-mock"
