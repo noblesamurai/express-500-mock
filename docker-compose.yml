@@ -1,0 +1,6 @@
+test:
+  build: .
+  volumes:
+    - ./app:/code/app
+    - ./test:/code/test
+  command: npm test

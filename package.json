@@ -10,15 +10,20 @@
     "type": "git",
     "url": "https://github.com/timothyleslieallen/express-500-mock"
   },
-  "keywords": ["express 500 mock"],
+  "keywords": [
+    "express 500 mock"
+  ],
   "author": "Tim Allen <tim@noblesamurai.com>",
   "license": "BSD-3-Clause",
   "bugs": {
     "url": "https://github.com/timothyleslieallen/express-500-mock/issues"
   },
-  "dependencies": {},
+  "dependencies": {
+    "express": "^4.13.3"
+  },
   "devDependencies": {
     "expect.js": "^0.3.1",
-    "mocha": "^2.3.4"
+    "mocha": "^2.3.4",
+    "supertest": "^1.1.0"
   }
 }
